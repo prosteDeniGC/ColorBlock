@@ -32,7 +32,7 @@ public final class ColorBlock extends JavaPlugin implements Listener {
             if (e.getItem() != null) {
                 if (e.getItem().toString().contains("DYE")) {
                     if(e.getPlayer().hasPermission("colorblock.dye")) {
-                        for (int i = 5; i >= 1; ) {
+                        for (int i = 3; i >= 1; ) {
                             i--;
                             if (Objects.requireNonNull(e.getClickedBlock()).getBlockData().getMaterial().toString().endsWith("_POWDER") || e.getClickedBlock().getBlockData().getMaterial().toString().endsWith("_PANE") || e.getClickedBlock().getBlockData().getMaterial().toString().endsWith("_GLASS") || e.getClickedBlock().getBlockData().getMaterial().toString().endsWith("_BOX") || e.getClickedBlock().getBlockData().getMaterial().toString().endsWith("_CONCRETE") || e.getClickedBlock().getBlockData().getMaterial().toString().endsWith("_TERRACOTTA") || e.getClickedBlock().getBlockData().getMaterial().toString().endsWith("_WOOL")) {
                                 Material BlockMaterial = e.getClickedBlock().getType();
