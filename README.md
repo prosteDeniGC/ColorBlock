@@ -27,7 +27,7 @@ allows you to use this plugin in worldguard regions
 
 when set to true, will check if WorldGuard plugin is installed and use it
 
-* Sounds: true
+* Sound: true
 
 when set to true, any action will make note pling sound
 
